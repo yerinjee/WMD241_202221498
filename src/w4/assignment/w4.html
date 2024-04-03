@@ -24,8 +24,9 @@
       }
 
       .container {
-        max-width: 64rem;
+        max-width: 960px;
         background-color: #f1eee8;
+        padding: 32px;
       }
 
       img {
@@ -36,14 +37,40 @@
         background-color: #dcccad;
         padding: 1rem;
         border-radius: 8px;
-        height: 74px;
-        width: 960px;
+      }
+
+      .tabletable {
+        text-align: right;
+      }
+
+      td,
+      th {
+        padding: 20px 20px;
+        padding-block: 5px;
+      }
+
+      em {
+        font-style: normal;
+      }
+
+      strong {
+        font-style: normal;
+      }
+
+      table {
+        width: 700px;
+
+        border-collapse: collapse;
+      }
+
+      .one {
+        border-bottom: 2px solid #b1ada8;
       }
     </style>
   </head>
-  <body>
+  <body style="max-width: 960px; margin-inline: auto">
     <div class="container">
-      <h1>
+      <h1 style="padding-bottom: 8px">
         <span
           style="
             font-weight: 700;
@@ -55,7 +82,7 @@
           파스타 카르보나라</span
         >
       </h1>
-      <p>
+      <p style="padding-bottom: 8px">
         <stong
           style="
             font-style: normal;
@@ -67,7 +94,7 @@
           >CLAIRE SAFFITZ</stong
         >
       </p>
-      <p>
+      <p style="padding-bottom: 8px">
         <em
           style="
             font-style: normal;
@@ -79,7 +106,7 @@
           >레서피</em
         >
       </p>
-      <p>
+      <p style="padding-bottom: 24px">
         <span
           style="
             font-weight: 400;
@@ -93,9 +120,9 @@
       <img
         src="../../../assets/pasta-carbonara.jpg"
         alt="흰 접시 위에 담긴 카르보나라 파스타 관찰레가 같이 버무려져있다"
-        style="width: 960px; height: 960px"
+        style="padding-bottom: 8px; width: 960px; height: 960px"
       />
-      <p>
+      <p style="padding-bottom: 24px">
         <span
           style="
             font-weight: 400;
@@ -106,7 +133,7 @@
           >사진: Chelsie Craig, 스타일링: Molly Baz</span
         >
       </p>
-      <p>
+      <p style="padding-bottom: 16px">
         <strong
           style="
             font-style: normal;
@@ -118,7 +145,7 @@
           >총 소요 시간 24분</strong
         >
       </p>
-      <p>
+      <p style="padding-bottom: 8px">
         <span
           style="
             font-weight: 400;
@@ -140,7 +167,7 @@
           레지아노, 그리고 좋은 스파게티나 부카티니 혹은 리가토니를 사세요.
         </span>
       </p>
-      <p>
+      <p style="padding-bottom: 8px">
         <span
           style="
             font-weight: 400;
@@ -157,7 +184,7 @@
           따라 소스를 묽게 만들기 위해 더 많은 면수을 추가하세요.
         </span>
       </p>
-      <p>
+      <p style="padding-bottom: 24px">
         <span
           style="
             font-weight: 400;
@@ -184,7 +211,7 @@
           수수료를 받기에 도움이 됩니다.
         </span>
       </p>
-      <h2>
+      <h2 style="padding-top: 48px; padding-bottom: 12px">
         <span
           style="
             font-weight: 700;
@@ -195,7 +222,7 @@
           >재료</span
         >
       </h2>
-      <p>
+      <p style="padding-bottom: 7px">
         <span
           style="
             font-weight: 400;
@@ -208,63 +235,68 @@
       </p>
       <table
         style="
+          border-width: 632px;
           font-size: 18px;
           font-weight: 400;
           line-height: 27px;
           color: #24211d;
         "
       >
-        <tr>
+        <tr class="one">
           <td>수량</td>
           <td>단위</td>
           <td>품목</td>
         </tr>
-        <span style="text-align: right">
+        <div class="tabletable">
           <tr>
-            <td>3</td>
-            <td>Tbsp.</td>
-            <td>코셔 소금</td>
+            <td style="text-align: right">3</td>
+            <td style="text-align: right">Tbsp.</td>
+            <td style="text-align: left">코셔 소금</td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>oz.</td>
-            <td>
+            <td style="text-align: right">4</td>
+            <td style="text-align: right">oz.</td>
+            <td style="text-align: left">
               관찰레(염장 돼지볼살) 혹은 판체타(이탈리안 베이컨) 혹은 베이컨
             </td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>oz.</td>
-            <td>파르마지아노 레지아노 혹은 페코리노 로마노</td>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right">oz.</td>
+            <td style="text-align: left">
+              파르마지아노 레지아노 혹은 페코리노 로마노
+            </td>
           </tr>
           <tr>
-            <td>4</td>
-            <td></td>
-            <td>대란 노른자</td>
+            <td style="text-align: right">4</td>
+            <td style="text-align: right"></td>
+            <td style="text-align: left">대란 노른자</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td></td>
-            <td>대란</td>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right"></td>
+            <td style="text-align: left">대란</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td>막 간 후추</td>
+            <td style="text-align: right"></td>
+            <td style="text-align: right"></td>
+            <td style="text-align: left">막 간 후추</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Tbsp.</td>
-            <td>엑스트라 버진 올리브 오일</td>
+            <td style="text-align: right">2</td>
+            <td style="text-align: right">Tbsp.</td>
+            <td style="text-align: left">엑스트라 버진 올리브 오일</td>
           </tr>
           <tr>
-            <td>1</td>
-            <td>lb.</td>
-            <td>스파게티 혹은 부카티니 혹은 리가토니</td>
+            <td style="text-align: right">1</td>
+            <td style="text-align: right">lb.</td>
+            <td style="text-align: left">
+              스파게티 혹은 부카티니 혹은 리가토니
+            </td>
           </tr>
-        </span>
+        </div>
       </table>
-      <h2>
+      <h2 style="padding-top: 43px; padding-bottom: 12px">
         <span
           style="
             font-weight: 700;
@@ -275,10 +307,9 @@
           >준비</span
         >
       </h2>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -287,10 +318,9 @@
           >단계 1</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -304,10 +334,9 @@
           을 넣고 뚜껑을 덮어주세요 (이렇게 하면 물이 빨리 끓습니다).
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -316,10 +345,9 @@
           >단계 2</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -333,16 +361,21 @@
           를 곱게 갈아서 ¼ 분량은 나중을 위해 따로 떼어두세요.
         </span>
       </p>
-      <h3>
-        <span>
-          style=" font-style: normal; font-weight: 500; font-size: 23px;
-          line-height: 34.5px; color: #24211d; " >단계 3</span
-        >
-      </h3>
-      <p>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 34.5px;
+            color: #24211d;
+          "
+          >단계 3</span
+        >
+      </h3>
+      <p style="padding-bottom: 20px">
+        <span
+          style="
+            \
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -353,13 +386,12 @@
           <em>계란 6개 중 4개는 노른자만, 나머지 2개는 흰자도 같이</em>
           휘핑해줍니다. 노른자들과 흰자가 하나가 될 때까지 휘핑한 후 (나중을
           위해 떼어둔 분량을 제외한) 갈아놓은 치즈를 넣어주세요. 후추를 적당히
-          갈아 넣고 한 켠에 보관해주세요.
-        </span>
+          갈아 넣고 한 켠에 보관해주세요.</span
+        >
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -368,10 +400,9 @@
           >단계 4</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -384,10 +415,9 @@
           가끔 뒤적이며 약 7-10분간 조리해주세요.
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -396,10 +426,9 @@
           >단계 5</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -411,10 +440,9 @@
           3큰술을 넣어주세요. 남은 기름은 버려주세요.
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -423,10 +451,9 @@
           >단계 6</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -439,10 +466,9 @@
           떠서 가져오세요.
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -451,10 +477,9 @@
           >단계 7</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -465,10 +490,9 @@
           파스타를 떠서 팬에 옮겨주세요.
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -477,10 +501,9 @@
           >단계 8</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -491,10 +514,9 @@
           될때까지 약 2분간 조리하세요. 팬을 레인지에서 꺼내세요.
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -503,10 +525,9 @@
           >단계 9</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 20px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -520,10 +541,9 @@
           사용하지는 않을 것입니다).
         </span>
       </p>
-      <h3>
+      <h3 style="padding-bottom: 8px">
         <span
           style="
-            font-style: normal;
             font-weight: 500;
             font-size: 23px;
             line-height: 34.5px;
@@ -532,10 +552,9 @@
           >단계 10</span
         >
       </h3>
-      <p>
+      <p style="padding-bottom: 48px">
         <span
           style="
-            font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
@@ -546,7 +565,7 @@
           치즈가루로 꾸며주세요.
         </span>
       </p>
-      <p>
+      <p class="callout">
         <span
           style="
             font-weight: 400;
