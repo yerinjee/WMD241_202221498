@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "GT America Trial", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-weight: 300;
+  margin: 30px;
+  background-color: #fff;
+  margin-left: 30px;
+}
+
+.here {
+  font-size: 30px;
+}
