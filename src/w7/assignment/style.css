@@ -122,7 +122,6 @@ input {
   position: absolute;
   right: -840px;
   bottom: -5px;
-
   width: 28px;
   z-index: 100;
   transition: all 0.3s;
@@ -294,6 +293,7 @@ footer {
 .last__last {
   justify-content: center;
   float: right;
+
   max-width: 100%;
   box-sizing: border-box;
   font-size: 19px;
