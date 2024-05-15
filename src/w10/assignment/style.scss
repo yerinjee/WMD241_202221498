@@ -558,10 +558,21 @@ button:hover {
   font-weight: 700;
   line-height: 1.4;
   color: #fedb63;
-  max-width: 30px;
-  min-width: 1280px;
-  grid-row: 5;
-  grid-column: 10;
+  width: 1280px;
+  max-width: 1280px;
+  grid-row: 100;
+  display: block;
+  float: right;
+  grid: none;
+}
+
+.last_1 {
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fedb63;
+  max-width: 500px;
 }
 
 .footer_container {
@@ -572,4 +583,22 @@ button:hover {
 .footerbox {
   display: grid;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .last {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 3800px) {
+  .last_1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .last_1 {
+    display: inline;
+  }
 }
