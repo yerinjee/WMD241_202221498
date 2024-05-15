@@ -174,7 +174,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 3800px) {
   .input_1 {
     display: none;
   }
@@ -449,6 +449,7 @@ button:hover {
   margin: 0;
   padding: 0;
   border: none;
+  grid-auto-rows: subgrid;
 }
 
 .img__font {
@@ -539,6 +540,7 @@ button:hover {
   max-width: 1250px;
   padding: 0.75rem;
   padding-top: 70px;
+  grid-auto-rows: subgrid;
 }
 
 .img__boxbox {
