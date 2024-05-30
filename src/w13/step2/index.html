@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottie Embeding</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script>
+      LottieInteractivity.create({
+        player: "#lottie-2",
+        mode: "cursor",
+        actions: [
+          {
+            type: "click",
+            forceFlag: false,
+          },
+        ],
+      });
+    </script>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nihil.
+        </h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
+          illum inventore enim necessitatibus sit quae sunt quo dolor quos?
+          Debitis quasi rem vero ducimus blanditiis dolorum vel consectetur,
+          soluta atque minus ipsa corrupti magnam totam dolor distinctio,
+          quibusdam sequi accusantium velit ratione voluptas quam, earum culpa.
+          Distinctio placeat beatae corrupti?
+        </p>
+        <dotlottie-player
+          id="lottie-1"
+          class="lottie"
+          src="https://lottie.host/4c91c424-b594-47ea-843d-54c00ff564b5/806wp21RzH.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+          aperiam ea distinctio doloremque voluptas iure. Minima voluptatem sint
+          quasi iure!
+        </p>
+        <dotlottie-player
+          id="lottie-2"
+          class="lottie"
+          src="https://lottie.host/4c91c424-b594-47ea-843d-54c00ff564b5/806wp21RzH.json"
+          background="transparent"
+          speed="1"
+        ></dotlottie-player>
+      </div>
+    </div>
+  </body>
+</html>
